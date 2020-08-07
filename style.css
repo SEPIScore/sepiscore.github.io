@@ -1,0 +1,95 @@
+a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.logo {
+    max-width: 80%;
+}
+
+.reference-info {
+    font-size: 8pt;
+    font-style: italic;
+}
+
+.university-logo {
+    width: 130px;
+}
+
+.container {
+    margin-top: 60px;
+    min-width: 300px;
+}
+
+.btn-download {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 12px;
+
+    font-weight: bold;
+
+    background-color: #262626;
+    color: #fff;
+}
+
+.btn-download:hover {
+    background-color: #353535;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 400px)
+{
+    .btn-download {
+        padding-left: 24px;
+    }
+}
+@media (min-width: 401px)
+{
+    .btn-download::before {
+        content: "";
+        background-size: 87px 60px;
+        background-repeat: no-repeat;
+        width: 87px;
+        height: 60px;
+        display: block;
+        float: left;
+    }
+
+    .btn-download.sv::before {
+        background-image: url('img/sweden-flag.png');
+    }
+
+    .btn-download.en::before {
+        background-image: url('img/australia-flag.png');
+    }
+
+    .btn-download.de::before {
+        background-image: url('img/german-flag.png');
+    }
+
+    .btn-download.es::before {
+        background-image: url('img/spanish-flag.png');
+    }
+}
+
+.btn-download::after {
+    content: "";
+    background-image: url('img/download-icon.png');
+    background-size: 30px 30px;
+    background-position: 0px 15px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 60px;
+    display: block;
+    float: right;
+}

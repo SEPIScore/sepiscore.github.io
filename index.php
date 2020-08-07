@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>SEPI - Sun Exposure and Protection Index</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-3">
+                <img src="img/sepi-logo.png" class="logo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    The Sun Exposure and Protection Index (SEPI) is a validated scoring instrument for assessment of sun habits and sun protection behaviour. It conists of two parts; part I addressing the present behaviour, and part II addressing propensity to increase sun protection, based on the Transtheoretical Model of Behaviour Change. It has been validated in two languages (English and Swedish), in two ultraviolet radiation environments (Australia and Sweden), and in two different population groups (students and primary care patients).
+                </p>
+                <p>
+                    SEPI can preferably be used as an individual risk assessment tool to identify riskful sun exposure habits and to communicate tailored sun protection advice. It may also serve as an instrument for quantitative evaluation of behaviour change in research, e.g. to evaluate the effect of interventions to increase sun protection.                        
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-7 mt-4 pr-md-4">
+                <p>
+                    <b>Present sun exposure habits (part I)</b>
+                    <br>Part I of SEPI includes 8 questions, concluding in a total score ranging from 0 – 32 points, a high score reflecting a riskful behaviour in the sun.
+                </p>
+                <p>
+                    <b>Propensity to increase sun protection (part II)</b>
+                    <br>Part II of SEPI includes 5 questions, concluding in a total score ranging from 0 – 20 points, a high score reflecting a low propensity to increase sun protection.
+                </p>
+                <p>
+                    The full article, describing the validation process, can be accessed online here: 
+                    <br><a href="http://www.sciencedirect.com/science/article/pii/S1877782115002337?via%3Dihub" target="_blank">http://www.sciencedirect.com/science/article/pii/S1877782115002337</a> 
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-5 mt-4">
+                <a href="files/SEPI-svenska.pdf" target="_blank" class="btn-download sv">Download in Swedish</a>
+                <a href="files/SEPI-English.pdf" target="_blank" class="btn-download en">Download in English</a>
+                <a href="files/SEPI-German.pdf" target="_blank" class="btn-download de">Download in German</a>
+                <a href="files/SEPI-Spanish.pdf" target="_blank" class="btn-download es">Download in Spanish</a>
+                <p>
+                    SEPI is free to use. If doing so, the following original reference should be used in publications: 
+                </p>
+                <p class="reference-info">
+                    Detert H, Hedlund S, Anderson CD, Rodvall Y, Whiteman DC, Falk M. Validation of Sun Exposure and Protection Index (SEPI) for estimation of sun habits. Cancer Epidemiol 2015; 39(6): 986-993.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-5">
+                <a href="https://liu.se/" target="_blank"><img src="img/liu-web.png" class="university-logo mt-3 mr-4" /></a>
+                <a href="http://www.qimrberghofer.edu.au/" target="_blank"><img src="img/qimr-berghofer-web.png" class="university-logo mt-3 mr-4" /></a>
+                <a href="http://ki.se" target="_blank"><img src="img/ki-web.png" class="university-logo mt-3" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
