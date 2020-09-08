@@ -80,6 +80,10 @@ a {
     .btn-download.es::before {
         background-image: url('img/spanish-flag.png');
     }
+
+    .btn-download.pt-br::before {
+        background-image: url('img/brazil-flag.png');
+    }
 }
 
 .btn-download::after {
