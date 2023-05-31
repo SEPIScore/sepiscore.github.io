@@ -34,9 +34,7 @@ a {
     height: 60px;
     line-height: 60px;
     margin-bottom: 12px;
-
     font-weight: bold;
-
     background-color: #262626;
     color: #fff;
 }
@@ -47,14 +45,13 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 400px)
-{
+@media (max-width: 400px) {
     .btn-download {
         padding-left: 24px;
     }
 }
-@media (min-width: 401px)
-{
+
+@media (min-width: 401px) {
     .btn-download::before {
         content: "";
         background-size: 87px 60px;
@@ -64,23 +61,21 @@ a {
         display: block;
         float: left;
     }
-
     .btn-download.sv::before {
         background-image: url('img/sweden-flag.png');
     }
-
     .btn-download.en::before {
         background-image: url('img/australia-flag.png');
     }
-
     .btn-download.de::before {
         background-image: url('img/german-flag.png');
     }
-
+    .btn-download.el::before {
+        background-image: url('img/greece-flag.png');
+    }
     .btn-download.es::before {
         background-image: url('img/spanish-flag.png');
     }
-
     .btn-download.pt-br::before {
         background-image: url('img/brazil-flag.png');
     }
