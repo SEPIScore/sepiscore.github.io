@@ -79,6 +79,9 @@ a {
     .btn-download.pt-br::before {
         background-image: url('img/brazil-flag.png');
     }
+    .btn-download.nl::before {
+        background-image: url('img/netherlands-flag.png');
+    }
 }
 
 .btn-download::after {
